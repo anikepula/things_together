@@ -1,0 +1,25 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Things Together'
+theme = 'digitalgarden'
+[menu]
+[[menu.main]]
+name = 'Home'
+url = '/'
+weight = 1
+[[menu.main]]
+name = 'Content'
+params.header = true
+weight = 2
+[[menu.main]]
+name = 'Blog'
+url = '/blog'
+weight = 3
+[[menu.main]]
+name = 'Links'
+params.header = true
+weight = 4
+[[menu.main]]
+name = 'Cheese'
+url = '/cheese'
+weight = 5
